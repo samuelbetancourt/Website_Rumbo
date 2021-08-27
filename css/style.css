@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Roboto:wght@300&display=swap');
+header{
+    background: url(../img/bg-header.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+header nav a{
+    margin-top: 15px;
+
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+header nav ul li a{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+transition: 0.4s;
+}
+header nav ul li a:hover{
+border-bottom: 2px solid;
+border-top: 2px solid;
+}
+header #hero{
+text-align: center;
+margin-top: 180px;
+}
+header #hero h1{
+    color: yellow;
+    font-size: 55px;
+    margin: 0;
+}
+header #hero p{
+    color: white;
+    margin: 0;
+    font-size:  25px;
+}
+header #hero button{
+    background: yellow;
+    font-size: 32px;
+    border-radius: 10px;
+    padding: 8px  15px;
+    margin-top: 50px;
+    color: gray;
+}
+header nav a img{
+    transition: 0.4s;
+}
+header nav a img :hover{
+    transform: scale(1.5);
+}
+
+main #planes{
+    padding: 100px 0px;
+    text-align: center;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+main #planes h2{
+    font-size: 40px;
+}
+main #planes p{
+    font-size: 20px;
+}
+main #planes .row .card-plan{
+    width: 33%;
+    position: relative;
+}
+main #planes .row .card-plan h3{
+    font-size: 25px;
+    color: yellow;
+    position: absolute;
+    margin: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 110px;
+}
+main #planes .row .card-plan p{
+    margin: 0;
+}
+main #planes .row{
+    display: flex;
+    justify-content: space-around;
+}
+main #destinos{
+    background: url(../img/bg-destinos.png);
+    padding: 110px 0 40px 0;
+    background-size: cover;
+    text-align: center;
+}
+main #destinos h2{
+    font-size: 40px;
+    color:yellow;
+}
+main #destinos .row{
+    display: flex;
+    justify-content: space-around;
+}
+main #destinos .row .card-destino{
+    width: 40%;
+    text-align: center;
+}
+main #destinos .row .card-destino h3{
+    font-size: 30px;
+    color:white;
+}
+main #contactos{
+    text-align: center;
+    background: yellow;
+    padding: 100px 0 150px;
+}
+main #contactos h2{
+    font-size: 40px;
+}
+main #contactos p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main #contactos form input{
+    width: 35%;
+    font-size: 25px;
+    padding: 12px 15px 12px;
+    margin: 20px;
+    border-radius: 8px;
+}
+main #contactos form select{
+    width: 38%;
+    font-size: 25px;
+    padding: 12px 15px 12px;
+    margin: 20px;
+    border-radius: 8px;
+}
+main #contactos form button{
+    padding: 12px 70px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: rgb(146, 146, 14);
+    font-weight: 500;
+    color: white;
+}
+footer {
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 40px 100px;
+    font-size: 20px;
+}
